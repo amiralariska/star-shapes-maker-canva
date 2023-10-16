@@ -93,7 +93,7 @@
     border-radius: 5px;
     outline: none;
     text-align: center;
-    transition: border 0.15s;
+    transition: border 0.25s;
 }
 .numberstrokevalue:hover,
 .numberstrokevalue:focus{
@@ -197,6 +197,7 @@
     background: #0d1216;
     border: 1px solid #ff66c4;
     cursor: pointer;
+    transition: border 0.35s;
 }
 
 .shapeoption2{
@@ -207,6 +208,7 @@
     background: #0d1216;
     border: 1px solid #757575;
     cursor: pointer;
+    transition: border 0.25s;
 }
 .shapeoption2:hover{
     border: 1px solid #909090;
@@ -219,6 +221,7 @@
     background: #0d1216;
     border: 1px solid #ff66c4;
     cursor: pointer;
+    transition: border 0.35s;
 }
 
 .shapeoption3{
@@ -229,6 +232,7 @@
     background: #0d1216;
     border: 1px solid #757575;
     cursor: pointer;
+    transition: border 0.25s;
 }
 .shapeoption3:hover{
     border: 1px solid #909090;
@@ -241,6 +245,7 @@
     background: #0d1216;
     border: 1px solid #ff66c4;
     cursor: pointer;
+    transition: border 0.35s;
 }
 
 .standardshapeoption{
