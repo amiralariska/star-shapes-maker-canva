@@ -1,7 +1,7 @@
 # Star Shapes Maker
-![Star Shapes Maker - App preview](shapes-generator-app-preview.jpg)
+![Star Shapes Maker - App preview](star-shape-app-preview/star-shapes-maker-app-preview.jpg)
 Star Shapes Maker is a tool that can generate a star shapes in your canva design, Star Shapes Maker tool generates a star shapes that looks like a circle shape or a flower image.
-![Star Shapes Maker - App Editor Preview](shapes-generator-app-editor-preview.jpg)
+![Star Shapes Maker - App Editor Preview](star-shape-app-preview/star-shapes-maker-app-editor-preview.jpg)
 Star Shapes Maker also has an editor when you can edit the star shape from the editor itself.
 
 # Check out our website
@@ -30,7 +30,7 @@ or this
 
 ![Fill - Star Shapes](assets/images/star-shape-fill.png)
 - so here is the screenshot
-![Canva Logo](canva-logo-design.png)
+![Canva Logo](star-shapes-maker-screenshot/canva-logo-design.jpg)
 1. And then click the image
 2. And the image will be add to your design and uploaded to the upload tab
 3. And that's it.
