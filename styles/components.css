@@ -140,6 +140,48 @@
   text-align: center;
 }
 
+.comingsoon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 15px;
+  gap: 1.5rem;
+}
+
+.comingsoonheading{
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #FF56C4;
+}
+.comingsoongradientheading{
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #FF56C4 20%, #FF36C4 40%, #FF16C4 60%, #FF56A4 80%);
+  animation: gradienttext 2s linear infinite;
+  background-size: 200% auto;
+}
+@keyframes gradienttext {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+.comingsoonparagraph{
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FF36C4;
+}
+
 /* Container */
 .container{
   display: flex;

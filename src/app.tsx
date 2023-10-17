@@ -509,6 +509,10 @@ export const App = () => {
             </div>
           </div>
         </div>
+        <div className={styles.comingsoon}>
+          <h1 className={styles.comingsoonheading}>More Star Shape Style is <span className={styles.comingsoongradientheading}>Coming Soon</span></h1>
+          <p className={styles.comingsoonparagraph}>Stay tuned for more star shape style</p>
+        </div>
       </div>
       <div className={activeTab === 1 ? maineditorstyles.maineditoractive : maineditorstyles.maineditor}>
         <div className={maineditorstyles.maineditorcontainer}>
