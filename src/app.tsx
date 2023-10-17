@@ -33,8 +33,8 @@ export const App = () => {
       type: "IMAGE",
       id: "starshapefill",
       mimeType: "image/png",
-      url: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-fill.png",
-      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-fill.png"
+      url: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-fill.png",
+      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-fill.png"
     })
     await addNativeElement({
       type: "IMAGE",
@@ -46,8 +46,8 @@ export const App = () => {
       type: "IMAGE",
       id: "starshapefillwithstroke",
       mimeType: "image/png",
-      url: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-fill-with-stroke.png",
-      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-fill-with-stroke.png"
+      url: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-fill-with-stroke.png",
+      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-fill-with-stroke.png"
     })
     await addNativeElement({
       type: "IMAGE",
@@ -59,8 +59,8 @@ export const App = () => {
       type: "IMAGE",
       id: "starshaperosepinkcolor",
       mimeType: "image/png",
-      url: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-rose-pink-color.png",
-      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-rose-pink-color.png",
+      url: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-rose-pink-color.png",
+      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-rose-pink-color.png",
     })
     await addNativeElement({
       type: "IMAGE",
@@ -72,8 +72,8 @@ export const App = () => {
       type: "IMAGE",
       id: "starshaperedcolor",
       mimeType: "image/png",
-      url: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-red-color.png",
-      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-red-color.png",
+      url: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-red-color.png",
+      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-red-color.png",
     })
     await addNativeElement({
       type: "IMAGE",
@@ -85,8 +85,8 @@ export const App = () => {
       type: "IMAGE",
       id: "starshapebluecolor",
       mimeType: "image/png",
-      url: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-blue-color.png",
-      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-blue-color.png",
+      url: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-blue-color.png",
+      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-blue-color.png",
     })
     await addNativeElement({
       type: "IMAGE",
@@ -98,8 +98,8 @@ export const App = () => {
       type: "IMAGE",
       id: "starshapegreencolor",
       mimeType: "image/png",
-      url: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-green-color.png",
-      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-green-color.png",
+      url: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-green-color.png",
+      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-green-color.png",
     })
     await addNativeElement({
       type: "IMAGE",
@@ -111,8 +111,8 @@ export const App = () => {
       type: "IMAGE",
       id: "starshapecyancolor",
       mimeType: "image/png",
-      url: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-cyan-color.png",
-      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-cyan-color.png",
+      url: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-cyan-color.png",
+      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-cyan-color.png",
     })
     await addNativeElement({
       type: "IMAGE",
@@ -124,8 +124,8 @@ export const App = () => {
       type: "IMAGE",
       id: "starshapeyellowcolor",
       mimeType: "image/png",
-      url: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-yellow-color.png",
-      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-yellow-color.png",
+      url: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-yellow-color.png",
+      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-yellow-color.png",
     })
     await addNativeElement({
       type: "IMAGE",
