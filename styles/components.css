@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Quicksand:wght@400;500;700&display=swap');
 .draggable {
   cursor: pointer;
   display: inline-block;
@@ -157,7 +157,7 @@
   color: #FF56C4;
 }
 .comingsoongradientheading{
-  font-family: "Quicksand", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 700;
   -webkit-background-clip: text;
