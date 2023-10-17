@@ -1,0 +1,1008 @@
+/* Image Button */
+.imagebutton{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -5px;
+}
+.imagebutton2{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -5px;
+}
+.imagebutton3{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -5px;
+}
+.imagebutton4{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -5px;
+}
+.imagebutton5{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -5px;
+}
+.imagebutton6{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -5px;
+}
+.imagebutton7{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -5px;
+}
+.imagebutton8{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -5px;
+}
+.imagebutton9{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -5px;
+}
+.imagebutton10{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -5px;
+}
+.imagebutton11{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -5px;
+}
+.imagebutton12{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -5px;
+}
+.imagebutton13{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -5px;
+}
+.imagebutton14{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -5px;
+}
+
+/* Image */
+.firstimage{
+    margin-bottom: -75px;
+    margin-left: 13.5px;
+}
+.secondimage{
+    margin-bottom: -75px;
+    margin-left: 13.5px;
+}
+.thirdimage{
+    margin-bottom: -75px;
+    margin-left: 13.5px;
+}
+.fourthimage{
+    margin-bottom: -75px;
+    margin-left: 13.5px;
+}
+.fifthimage{
+    margin-bottom: -75px;
+    margin-left: 13.5px;
+}
+.sixthimage{
+    margin-bottom: -75px;
+    margin-left: 13.5px;
+}
+.seventhimage{
+    margin-bottom: -75px;
+    margin-left: 13.5px;
+}
+.eighthimage{
+    margin-bottom: -75px;
+    margin-left: 13.5px;
+}
+.ninethimage{
+    margin-bottom: -75px;
+    margin-left: 13.5px;
+}
+.tenthimage{
+    margin-bottom: -75px;
+    margin-left: 13.5px;
+}
+.eleventhimage{
+    margin-bottom: -75px;
+    margin-left: 13.5px;
+}
+.twelfthimage{
+    margin-bottom: -75px;
+    margin-left: 13.5px;
+}
+.thirteenthimage{
+    margin-bottom: -75px;
+    margin-left: 13.5px;
+}
+.fourteenthimage{
+    margin-bottom: -75px;
+    margin-left: 13.5px;
+}
+
+/* Image Layout */
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Details */
+.details{
+    padding: 15px 20px;
+    width: 135px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 196, 204, 0.7), rgba(100, 32, 255, 0.7), rgba(125, 42, 231, 0.7), transparent);
+}
+.topoption{
+    padding: 15px 20px;
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details2{
+    padding: 15px 20px;
+    width: 135px;
+    margin-top: -5px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, #00c4ccb3, rgba(100, 32, 255, 0.7), rgba(125, 42, 231, 0.7), transparent);
+}
+.topoption2{
+    padding: 15px 20px;
+    width: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.details3{
+    padding: 15px 20px;
+    width: 135px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 196, 204, 0.7), rgba(100, 32, 255, 0.7), rgba(125, 42, 231, 0.7), transparent);
+}
+.topoption3{
+    padding: 15px 20px;
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details4{
+    padding: 15px 20px;
+    width: 135px;
+    margin-top: -5px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 196, 204, 0.7), rgba(100, 32, 255, 0.7), rgba(125, 42, 231, 0.7), transparent);
+}
+.topoption4{
+    padding: 15px 20px;
+    width: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details5{
+    padding: 15px 20px;
+    width: 135px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 196, 204, 0.7), rgba(100, 32, 255, 0.7), rgba(125, 42, 231, 0.7), transparent);
+}
+.topoption5{
+    padding: 15px 20px;
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.details6{
+    padding: 15px 20px;
+    width: 135px;
+    margin-top: -5px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 196, 204, 0.7), rgba(100, 32, 255, 0.7), rgba(125, 42, 231, 0.7), transparent);
+}
+.topoption6{
+    padding: 15px 20px;
+    width: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details7{
+    padding: 15px 20px;
+    width: 135px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 196, 204, 0.7), rgba(100, 32, 255, 0.7), rgba(125, 42, 231, 0.7), transparent);
+}
+.topoption7{
+    padding: 15px 20px;
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details8{
+    padding: 15px 20px;
+    width: 135px;
+    margin-top: -5px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 196, 204, 0.7), rgba(100, 32, 255, 0.7), rgba(125, 42, 231, 0.7), transparent);
+}
+.topoption8{
+    padding: 15px 20px;
+    width: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details9{
+    padding: 15px 20px;
+    width: 135px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 196, 204, 0.7), rgba(100, 32, 255, 0.7), rgba(125, 42, 231, 0.7), transparent);
+}
+.topoption9{
+    padding: 15px 20px;
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details10{
+    padding: 15px 20px;
+    width: 135px;
+    margin-top: -5px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 196, 204, 0.7), rgba(100, 32, 255, 0.7), rgba(125, 42, 231, 0.7), transparent);
+}
+.topoption10{
+    padding: 15px 20px;
+    width: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details11{
+    padding: 15px 20px;
+    width: 135px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 196, 204, 0.7), rgba(100, 32, 255, 0.7), rgba(125, 42, 231, 0.7), transparent);
+}
+.topoption11{
+    padding: 15px 20px;
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details12{
+    padding: 15px 20px;
+    width: 135px;
+    margin-top: -5px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 196, 204, 0.7), rgba(100, 32, 255, 0.7), rgba(125, 42, 231, 0.7), transparent);
+}
+.topoption12{
+    padding: 15px 20px;
+    width: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details13{
+    padding: 15px 20px;
+    width: 135px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 196, 204, 0.7), rgba(100, 32, 255, 0.7), rgba(125, 42, 231, 0.7), transparent);
+}
+.topoption13{
+    padding: 15px 20px;
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details14{
+    padding: 15px 20px;
+    width: 135px;
+    margin-top: -5px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 196, 204, 0.7), rgba(100, 32, 255, 0.7), rgba(125, 42, 231, 0.7), transparent);
+}
+.topoption14{
+    padding: 15px 20px;
+    width: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Custom Shape */
+.customshapes{
+    color: #00D4CC;
+    display: flex;
+    align-items: center;
+}
+.customshapes2{
+    color: #00D4CC;
+    display: flex;
+    align-items: center;
+}
+.customshapes3{
+    color: #ff25ff;
+    display: flex;
+    align-items: center;
+}
+.customshapes4{
+    color: #ff2500;
+    display: flex;
+    align-items: center;
+}
+.customshapes5{
+    color: #0075ff;
+    display: flex;
+    align-items: center;
+}
+.customshapes6{
+    color: #00ff75;
+    display: flex;
+    align-items: center;
+}
+.customshapes7{
+    color: #25ffff;
+    display: flex;
+    align-items: center;
+}
+.customshapes8{
+    color: #ffff25;
+    display: flex;
+    align-items: center;
+}
+.customshapes9{
+    color: #ff25ff;
+    display: flex;
+    align-items: center;
+}
+.customshapes10{
+    color: #ff2500;
+    display: flex;
+    align-items: center;
+}
+.customshapes11{
+    color: #0075ff;
+    display: flex;
+    align-items: center;
+}
+.customshapes12{
+    color: #00ff75;
+    display: flex;
+    align-items: center;
+}
+.customshapes13{
+    color: #25ffff;
+    display: flex;
+    align-items: center;
+}
+.customshapes14{
+    color: #ffff25;
+    display: flex;
+    align-items: center;
+}
+
+/* Shapes Icon */
+.shapes{
+    margin-left: 10px;
+}
+.shapes2{
+    margin-left: -5px;
+}
+.shapes3{
+    margin-left: 10px;
+}
+.shapes4{
+    margin-left: -5px;
+}
+.shapes5{
+    margin-left: 10px;
+}
+.shapes6{
+    margin-left: -5px;
+}
+.shapes7{
+    margin-left: 10px;
+}
+.shapes8{
+    margin-left: -5px;
+}
+.shapes9{
+    margin-left: 10px;
+}
+.shapes10{
+    margin-left: -5px;
+}
+.shapes11{
+    margin-left: 10px;
+}
+.shapes12{
+    margin-left: -5px;
+}
+.shapes13{
+    margin-left: 10px;
+}
+.shapes14{
+    margin-left: -5px;
+}
+
+/* Title */
+.title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    width: 95px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.secondtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    width: 95px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.thirdtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    width: 95px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.fourthtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.45rem;
+    width: 95px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.fifthtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.45rem;
+    width: 95px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.sixthtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.45rem;
+    width: 95px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.seventhtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.45rem;
+    width: 95px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.eighthtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.45rem;
+    width: 95px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ninethtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    width: 95px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tenthtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.45rem;
+    width: 95px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.eleventhtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.45rem;
+    width: 95px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.twelfthtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.45rem;
+    width: 95px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.thirteenthtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.45rem;
+    width: 95px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.fourteenthtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.45rem;
+    width: 95px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Add to Design Button */
+.addtodesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    background: #FF56C4;
+    transition: 0.5s;
+    margin-left: 135px;
+    margin-top: -150px;
+    border: none;
+    border-radius: 5px;
+}
+.addtodesign:hover{
+    background: #ff36c4;
+}
+.addtodesign2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    background: #FF56C4;
+    transition: 0.5s;
+    margin-left: 125px;
+    margin-top: -150px;
+    border: none;
+    border-radius: 5px;
+}
+.addtodesign2:hover{
+    background: #ff36c4;
+}
+.addtodesign3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    background: #FF56C4;
+    transition: 0.5s;
+    margin-left: 135px;
+    margin-top: -150px;
+    border: none;
+    border-radius: 5px;
+}
+.addtodesign3:hover{
+    background: #ff36c4;
+}
+.addtodesign4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    background: #FF56C4;
+    transition: 0.5s;
+    margin-left: 125px;
+    margin-top: -150px;
+    border: none;
+    border-radius: 5px;
+}
+.addtodesign4:hover{
+    background: #ff36c4;
+}
+.addtodesign5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    background: #FF56C4;
+    transition: 0.5s;
+    margin-left: 135px;
+    margin-top: -150px;
+    border: none;
+    border-radius: 5px;
+}
+.addtodesign5:hover{
+    background: #ff36c4;
+}
+.addtodesign6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    background: #FF56C4;
+    transition: 0.5s;
+    margin-left: 125px;
+    margin-top: -150px;
+    border: none;
+    border-radius: 5px;
+}
+.addtodesign6:hover{
+    background: #ff36c4;
+}
+.addtodesign7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    background: #FF56C4;
+    transition: 0.5s;
+    margin-left: 135px;
+    margin-top: -150px;
+    border: none;
+    border-radius: 5px;
+}
+.addtodesign7:hover{
+    background: #ff36c4;
+}
+.addtodesign8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    background: #FF56C4;
+    transition: 0.5s;
+    margin-left: 125px;
+    margin-top: -150px;
+    border: none;
+    border-radius: 5px;
+}
+.addtodesign8:hover{
+    background: #ff36c4;
+}
+.addtodesign9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    background: #FF56C4;
+    transition: 0.5s;
+    margin-left: 135px;
+    margin-top: -150px;
+    border: none;
+    border-radius: 5px;
+}
+.addtodesign9:hover{
+    background: #ff36c4;
+}
+.addtodesign10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    background: #FF56C4;
+    transition: 0.5s;
+    margin-left: 125px;
+    margin-top: -150px;
+    border: none;
+    border-radius: 5px;
+}
+.addtodesign10:hover{
+    background: #ff36c4;
+}
+.addtodesign11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    background: #FF56C4;
+    transition: 0.5s;
+    margin-left: 135px;
+    margin-top: -150px;
+    border: none;
+    border-radius: 5px;
+}
+.addtodesign11:hover{
+    background: #ff36c4;
+}
+.addtodesign12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    background: #FF56C4;
+    transition: 0.5s;
+    margin-left: 125px;
+    margin-top: -150px;
+    border: none;
+    border-radius: 5px;
+}
+.addtodesign12:hover{
+    background: #ff36c4;
+}
+.addtodesign13{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    background: #FF56C4;
+    transition: 0.5s;
+    margin-left: 135px;
+    margin-top: -150px;
+    border: none;
+    border-radius: 5px;
+}
+.addtodesign13:hover{
+    background: #ff36c4;
+}
+.addtodesign14{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    background: #FF56C4;
+    transition: 0.5s;
+    margin-left: 125px;
+    margin-top: -150px;
+    border: none;
+    border-radius: 5px;
+}
+.addtodesign14:hover{
+    background: #ff36c4;
+}
+
+/* Grid Image View */
+.gridimage{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-gap: 1.5rem;
+}
+.gridimage2{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-gap: 1.5rem;
+}
+.gridimage3{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-gap: 1.5rem;
+}

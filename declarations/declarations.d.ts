@@ -1,6 +1,8 @@
 declare module "*.css" {
   const styles: { [className: string]: string };
   export = styles;
+  const imagelayoutstyles: { [className: string]: string };
+  export = imagelayoutstyles;
   const maineditorstyles: { [className: string]: string };
   export = maineditorstyles;
 }

@@ -4,17 +4,24 @@ import { DraggableImage } from "../components/draggable_image";
 import starShapefill from "../assets/images/star-shape-fill.png"
 import starShapefillwithstroke from "../assets/images/star-shape-fill-with-stroke.png"
 import starShapeRosepinkColor from "../assets/images/star-shape-rose-pink-color.png"
+import starShapeRosepinkStrokeColor from "../assets/images/star-shape-rose-pink-stroke-color.png"
 import starShapeRedColor from "../assets/images/star-shape-red-color.png"
+import starShapeRedStrokeColor from "../assets/images/star-shape-red-stroke-color.png"
 import starShapeBlueColor from "../assets/images/star-shape-blue-color.png"
+import starShapeBlueStrokeColor from "../assets/images/star-shape-blue-stroke-color.png"
 import starShapeGreenColor from "../assets/images/star-shape-green-color.png"
+import starShapeGreenStrokeColor from "../assets/images/star-shape-green-stroke-color.png"
 import starShapeCyanColor from "../assets/images/star-shape-cyan-color.png"
+import starShapeCyanStrokeColor from "../assets/images/star-shape-cyan-stroke-color.png"
 import starShapeYellowColor from "../assets/images/star-shape-yellow-color.png"
+import starShapeYellowStrokeColor from "../assets/images/star-shape-yellow-stroke-color.png"
 // import { Checkbox } from "@canva/app-ui-kit";
 import React, { useState } from "react";
 import styles from "styles/components.css";
+import imagelayoutstyles from "styles/imagelayout.css"
 import maineditorstyles from "styles/maineditor.css"
 import { PlusIcon } from "components/plusicon/PlusIcon";
-import { ShapesIcon, ShapesIcon2, ShapesIcon3, ShapesIcon4, ShapesIcon5, ShapesIcon6, ShapesIcon7, ShapesIcon8 } from "components/shapesicon/ShapesIcon";
+import { ShapesIcon, ShapesIcon10, ShapesIcon11, ShapesIcon12, ShapesIcon13, ShapesIcon14, ShapesIcon2, ShapesIcon3, ShapesIcon4, ShapesIcon5, ShapesIcon6, ShapesIcon7, ShapesIcon8, ShapesIcon9 } from "components/shapesicon/ShapesIcon";
 import { ColorPicker } from 'antd';
 // import { Button } from "@canva/app-ui-kit";
 // import { MainApp } from "components/main_app/mainapp";
@@ -125,6 +132,84 @@ export const App = () => {
       ref: eighthimportimage.ref,
     });
   }
+  async function starshaperosepinkstrokecolor() {
+    const ninethimportimage = await upload({
+      type: "IMAGE",
+      id: "starshaperosepinkstrokecolor",
+      mimeType: "image/png",
+      url: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-rose-pink-stroke-color.png",
+      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-rose-pink-stroke-color.png",
+    })
+    await addNativeElement({
+      type: "IMAGE",
+      ref: ninethimportimage.ref,
+    });
+  }
+  async function starshaperedstrokecolor() {
+    const tenthimportimage = await upload({
+      type: "IMAGE",
+      id: "starshaperedstrokecolor",
+      mimeType: "image/png",
+      url: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-red-stroke-color.png",
+      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-red-stroke-color.png",
+    })
+    await addNativeElement({
+      type: "IMAGE",
+      ref: tenthimportimage.ref,
+    });
+  }
+  async function starshapebluestrokecolor() {
+    const eleventhimportimage = await upload({
+      type: "IMAGE",
+      id: "starshapebluestrokecolor",
+      mimeType: "image/png",
+      url: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-blue-stroke-color.png",
+      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-blue-stroke-color.png",
+    })
+    await addNativeElement({
+      type: "IMAGE",
+      ref: eleventhimportimage.ref,
+    });
+  }
+  async function starshapegreenstrokecolor() {
+    const twelfthimportimage = await upload({
+      type: "IMAGE",
+      id: "starshapegreenstrokecolor",
+      mimeType: "image/png",
+      url: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-green-stroke-color.png",
+      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-green-stroke-color.png",
+    })
+    await addNativeElement({
+      type: "IMAGE",
+      ref: twelfthimportimage.ref,
+    });
+  }
+  async function starshapecyanstrokecolor() {
+    const thirteenthimportimage = await upload({
+      type: "IMAGE",
+      id: "starshapecyanstrokecolor",
+      mimeType: "image/png",
+      url: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-cyan-stroke-color.png",
+      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-cyan-stroke-color.png",
+    })
+    await addNativeElement({
+      type: "IMAGE",
+      ref: thirteenthimportimage.ref,
+    });
+  }
+  async function starshapeyellowstrokecolor() {
+    const fourteenthimportimage = await upload({
+      type: "IMAGE",
+      id: "starshapeyellowstrokecolor",
+      mimeType: "image/png",
+      url: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-yellow-color.png",
+      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-yellow-color.png",
+    })
+    await addNativeElement({
+      type: "IMAGE",
+      ref: fourteenthimportimage.ref,
+    });
+  }
   const [activeTab, setActiveTab] = useState(0);
   const [selectedbox, setSelectedBox] = useState(0);
   // const [selectedbox2, setSelectedBox2] = useState(1);
@@ -188,35 +273,35 @@ export const App = () => {
         {/* Subtitle Section */}
         <p className={styles.paragraphlist}>Star Shape</p>
         {/* Grid Image View */}
-        <div className={styles.gridimage}>
-          <div className={styles.imagebutton}>
-            <div className={styles.images}>
-              <DraggableImage className={styles.firstimage} src={starShapefill} width={150} onClick={starshapefill} />
-              <div className={styles.topoption}>
-                <button className={styles.addtodesign} onClick={starshapefill}>
+        <div className={imagelayoutstyles.gridimage}>
+          <div className={imagelayoutstyles.imagebutton}>
+            <div className={imagelayoutstyles.images}>
+              <DraggableImage className={imagelayoutstyles.firstimage} src={starShapefill} width={150} onClick={starshapefill} />
+              <div className={imagelayoutstyles.topoption}>
+                <button className={imagelayoutstyles.addtodesign} onClick={starshapefill}>
                   <PlusIcon />
                 </button>
               </div>
-              <div className={styles.details}>
-                <div className={styles.customshapes}>
-                  <ShapesIcon className={styles.shapes} />
-                  <span className={styles.title}>Star Shape - Fill</span>
+              <div className={imagelayoutstyles.details}>
+                <div className={imagelayoutstyles.customshapes}>
+                  <ShapesIcon className={imagelayoutstyles.shapes} />
+                  <span className={imagelayoutstyles.title}>Star Shape - Fill</span>
                 </div>
               </div>
             </div>
           </div>
-          <div className={styles.imagebutton2}>
-            <div className={styles.images}>
-              <DraggableImage className={styles.secondimage} src={starShapefillwithstroke} width={150} onClick={starshapefillwithstroke} />
-              <div className={styles.topoption2}>
-                <button className={styles.addtodesign2} onClick={starshapefillwithstroke}>
+          <div className={imagelayoutstyles.imagebutton2}>
+            <div className={imagelayoutstyles.images}>
+              <DraggableImage className={imagelayoutstyles.secondimage} src={starShapefillwithstroke} width={150} onClick={starshapefillwithstroke} />
+              <div className={imagelayoutstyles.topoption2}>
+                <button className={imagelayoutstyles.addtodesign2} onClick={starshapefillwithstroke}>
                   <PlusIcon />
                 </button>
               </div>
-              <div className={styles.details2}>
-                <div className={styles.customshapes2}>
-                  <ShapesIcon2 className={styles.shapes2} />
-                  <span className={styles.secondtitle}>Star Shape - Fill With Stroke</span>
+              <div className={imagelayoutstyles.details2}>
+                <div className={imagelayoutstyles.customshapes2}>
+                  <ShapesIcon2 className={imagelayoutstyles.shapes2} />
+                  <span className={imagelayoutstyles.secondtitle}>Star Shape - Fill With Stroke</span>
                 </div>
               </div>
             </div>
@@ -225,99 +310,200 @@ export const App = () => {
         {/* Subtitle Section 2 */}
         <p className={styles.secondparagraphlist}>Star Shape - Color Variants</p>
         {/* Grid Image View 2 */}
-        <div className={styles.gridimage2}>
-          <div className={styles.imagebutton3}>
-            <div className={styles.images}>
-              <DraggableImage className={styles.thirdimage} src={starShapeRosepinkColor} width={150} onClick={starshaperosepinkcolor} />
-              <div className={styles.topoption3}>
-                <button className={styles.addtodesign3} onClick={starshaperosepinkcolor}>
+        <div className={imagelayoutstyles.gridimage2}>
+          <div className={imagelayoutstyles.imagebutton3}>
+            <div className={imagelayoutstyles.images}>
+              <DraggableImage className={imagelayoutstyles.thirdimage} src={starShapeRosepinkColor} width={150} onClick={starshaperosepinkcolor} />
+              <div className={imagelayoutstyles.topoption3}>
+                <button className={imagelayoutstyles.addtodesign3} onClick={starshaperosepinkcolor}>
                   <PlusIcon />
                 </button>
               </div>
-              <div className={styles.details3}>
-                <div className={styles.customshapes3}>
-                  <ShapesIcon3 className={styles.shapes3} />
-                  <span className={styles.thirdtitle}>Star Shape - Rose Pink</span>
+              <div className={imagelayoutstyles.details3}>
+                <div className={imagelayoutstyles.customshapes3}>
+                  <ShapesIcon3 className={imagelayoutstyles.shapes3} />
+                  <span className={imagelayoutstyles.thirdtitle}>Star Shape - Rose Pink</span>
                 </div>
               </div>
             </div>
           </div>
-          <div className={styles.imagebutton4}>
-            <div className={styles.images}>
-              <DraggableImage className={styles.fourthimage} src={starShapeRedColor} width={150} onClick={starshaperedcolor} />
-              <div className={styles.topoption4}>
-                <button className={styles.addtodesign4} onClick={starshaperedcolor}>
+          <div className={imagelayoutstyles.imagebutton4}>
+            <div className={imagelayoutstyles.images}>
+              <DraggableImage className={imagelayoutstyles.fourthimage} src={starShapeRedColor} width={150} onClick={starshaperedcolor} />
+              <div className={imagelayoutstyles.topoption4}>
+                <button className={imagelayoutstyles.addtodesign4} onClick={starshaperedcolor}>
                   <PlusIcon />
                 </button>
               </div>
-              <div className={styles.details4}>
-                <div className={styles.customshapes4}>
-                  <ShapesIcon4 className={styles.shapes4} />
-                  <span className={styles.fourthtitle}>Star Shape - Red</span>
+              <div className={imagelayoutstyles.details4}>
+                <div className={imagelayoutstyles.customshapes4}>
+                  <ShapesIcon4 className={imagelayoutstyles.shapes4} />
+                  <span className={imagelayoutstyles.fourthtitle}>Star Shape - Red</span>
                 </div>
               </div>
             </div>
           </div>
-          <div className={styles.imagebutton5}>
-            <div className={styles.images}>
-              <DraggableImage className={styles.fifthimage} src={starShapeBlueColor} width={150} onClick={starshapebluecolor} />
-              <div className={styles.topoption5}>
-                <button className={styles.addtodesign5} onClick={starshapebluecolor}>
+          <div className={imagelayoutstyles.imagebutton5}>
+            <div className={imagelayoutstyles.images}>
+              <DraggableImage className={imagelayoutstyles.fifthimage} src={starShapeBlueColor} width={150} onClick={starshapebluecolor} />
+              <div className={imagelayoutstyles.topoption5}>
+                <button className={imagelayoutstyles.addtodesign5} onClick={starshapebluecolor}>
                   <PlusIcon />
                 </button>
               </div>
-              <div className={styles.details5}>
-                <div className={styles.customshapes5}>
-                  <ShapesIcon5 className={styles.shapes5} />
-                  <span className={styles.fifthtitle}>Star Shape - Blue</span>
+              <div className={imagelayoutstyles.details5}>
+                <div className={imagelayoutstyles.customshapes5}>
+                  <ShapesIcon5 className={imagelayoutstyles.shapes5} />
+                  <span className={imagelayoutstyles.fifthtitle}>Star Shape - Blue</span>
                 </div>
               </div>
             </div>
           </div>
-          <div className={styles.imagebutton6}>
-            <div className={styles.images}>
-              <DraggableImage className={styles.sixthimage} src={starShapeGreenColor} width={150} onClick={starshapegreencolor} />
-              <div className={styles.topoption6}>
-                <button className={styles.addtodesign6} onClick={starshapegreencolor}>
+          <div className={imagelayoutstyles.imagebutton6}>
+            <div className={imagelayoutstyles.images}>
+              <DraggableImage className={imagelayoutstyles.sixthimage} src={starShapeGreenColor} width={150} onClick={starshapegreencolor} />
+              <div className={imagelayoutstyles.topoption6}>
+                <button className={imagelayoutstyles.addtodesign6} onClick={starshapegreencolor}>
                   <PlusIcon />
                 </button>
               </div>
-              <div className={styles.details6}>
-                <div className={styles.customshapes6}>
-                  <ShapesIcon6 className={styles.shapes6} />
-                  <span className={styles.sixthtitle}>Star Shape - Green</span>
+              <div className={imagelayoutstyles.details6}>
+                <div className={imagelayoutstyles.customshapes6}>
+                  <ShapesIcon6 className={imagelayoutstyles.shapes6} />
+                  <span className={imagelayoutstyles.sixthtitle}>Star Shape - Green</span>
                 </div>
               </div>
             </div>
           </div>
-          <div className={styles.imagebutton7}>
-            <div className={styles.images}>
-              <DraggableImage className={styles.seventhimage} src={starShapeCyanColor} width={150} onClick={starshapecyancolor} />
-              <div className={styles.topoption7}>
-                <button className={styles.addtodesign7} onClick={starshapecyancolor}>
+          <div className={imagelayoutstyles.imagebutton7}>
+            <div className={imagelayoutstyles.images}>
+              <DraggableImage className={imagelayoutstyles.seventhimage} src={starShapeCyanColor} width={150} onClick={starshapecyancolor} />
+              <div className={imagelayoutstyles.topoption7}>
+                <button className={imagelayoutstyles.addtodesign7} onClick={starshapecyancolor}>
                   <PlusIcon />
                 </button>
               </div>
-              <div className={styles.details7}>
-                <div className={styles.customshapes7}>
-                  <ShapesIcon7 className={styles.shapes7} />
-                  <span className={styles.seventhtitle}>Star Shape - Cyan</span>
+              <div className={imagelayoutstyles.details7}>
+                <div className={imagelayoutstyles.customshapes7}>
+                  <ShapesIcon7 className={imagelayoutstyles.shapes7} />
+                  <span className={imagelayoutstyles.seventhtitle}>Star Shape - Cyan</span>
                 </div>
               </div>
             </div>
           </div>
-          <div className={styles.imagebutton8}>
-            <div className={styles.images}>
-              <DraggableImage className={styles.eighthimage} src={starShapeYellowColor} width={150} onClick={starshapeyellowcolor} />
-              <div className={styles.topoption8}>
-                <button className={styles.addtodesign8} onClick={starshapeyellowcolor}>
+          <div className={imagelayoutstyles.imagebutton8}>
+            <div className={imagelayoutstyles.images}>
+              <DraggableImage className={imagelayoutstyles.eighthimage} src={starShapeYellowColor} width={150} onClick={starshapeyellowcolor} />
+              <div className={imagelayoutstyles.topoption8}>
+                <button className={imagelayoutstyles.addtodesign8} onClick={starshapeyellowcolor}>
                   <PlusIcon />
                 </button>
               </div>
-              <div className={styles.details8}>
-                <div className={styles.customshapes8}>
-                  <ShapesIcon8 className={styles.shapes8} />
-                  <span className={styles.eighthtitle}>Star Shape - Yellow</span>
+              <div className={imagelayoutstyles.details8}>
+                <div className={imagelayoutstyles.customshapes8}>
+                  <ShapesIcon8 className={imagelayoutstyles.shapes8} />
+                  <span className={imagelayoutstyles.eighthtitle}>Star Shape - Yellow</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Subtitle Section 3 */}
+        <p className={styles.thirdparagraphlist}>Star Shape - Stroke Color Variants</p>
+        {/* Grid Image View 3 */}
+        <div className={imagelayoutstyles.gridimage3}>
+          <div className={imagelayoutstyles.imagebutton9}>
+            <div className={imagelayoutstyles.images}>
+              <DraggableImage className={imagelayoutstyles.ninethimage} src={starShapeRosepinkStrokeColor} width={150} onClick={starshaperosepinkstrokecolor} />
+              <div className={imagelayoutstyles.topoption9}>
+                <button className={imagelayoutstyles.addtodesign9} onClick={starshaperosepinkstrokecolor}>
+                  <PlusIcon />
+                </button>
+              </div>
+              <div className={imagelayoutstyles.details9}>
+                <div className={imagelayoutstyles.customshapes9}>
+                  <ShapesIcon9 className={imagelayoutstyles.shapes9} />
+                  <span className={imagelayoutstyles.ninethtitle}>Star Shape - Rose Pink Stroke</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={imagelayoutstyles.imagebutton10}>
+            <div className={imagelayoutstyles.images}>
+              <DraggableImage className={imagelayoutstyles.tenthimage} src={starShapeRedStrokeColor} width={150} onClick={starshaperedstrokecolor} />
+              <div className={imagelayoutstyles.topoption10}>
+                <button className={imagelayoutstyles.addtodesign10} onClick={starshaperedstrokecolor}>
+                  <PlusIcon />
+                </button>
+              </div>
+              <div className={imagelayoutstyles.details10}>
+                <div className={imagelayoutstyles.customshapes10}>
+                  <ShapesIcon10 className={imagelayoutstyles.shapes10} />
+                  <span className={imagelayoutstyles.tenthtitle}>Star Shape - Red Stroke</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={imagelayoutstyles.imagebutton11}>
+            <div className={imagelayoutstyles.images}>
+              <DraggableImage className={imagelayoutstyles.eleventhimage} src={starShapeBlueStrokeColor} width={150} onClick={starshapebluestrokecolor} />
+              <div className={imagelayoutstyles.topoption11}>
+                <button className={imagelayoutstyles.addtodesign11} onClick={starshapebluestrokecolor}>
+                  <PlusIcon />
+                </button>
+              </div>
+              <div className={imagelayoutstyles.details11}>
+                <div className={imagelayoutstyles.customshapes11}>
+                  <ShapesIcon11 className={imagelayoutstyles.shapes11} />
+                  <span className={imagelayoutstyles.eleventhtitle}>Star Shape - Blue Stroke</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={imagelayoutstyles.imagebutton12}>
+            <div className={imagelayoutstyles.images}>
+              <DraggableImage className={imagelayoutstyles.twelfthimage} src={starShapeGreenStrokeColor} width={150} onClick={starshapegreenstrokecolor} />
+              <div className={imagelayoutstyles.topoption12}>
+                <button className={imagelayoutstyles.addtodesign12} onClick={starshapegreenstrokecolor}>
+                  <PlusIcon />
+                </button>
+              </div>
+              <div className={imagelayoutstyles.details12}>
+                <div className={imagelayoutstyles.customshapes12}>
+                  <ShapesIcon12 className={imagelayoutstyles.shapes12} />
+                  <span className={imagelayoutstyles.twelfthtitle}>Star Shape - Green Stroke</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={imagelayoutstyles.imagebutton13}>
+            <div className={imagelayoutstyles.images}>
+              <DraggableImage className={imagelayoutstyles.thirteenthimage} src={starShapeCyanStrokeColor} width={150} onClick={starshapecyanstrokecolor} />
+              <div className={imagelayoutstyles.topoption13}>
+                <button className={imagelayoutstyles.addtodesign13} onClick={starshapecyanstrokecolor}>
+                  <PlusIcon />
+                </button>
+              </div>
+              <div className={imagelayoutstyles.details13}>
+                <div className={imagelayoutstyles.customshapes13}>
+                  <ShapesIcon13 className={imagelayoutstyles.shapes13} />
+                  <span className={imagelayoutstyles.thirteenthtitle}>Star Shape - Cyan Stroke</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={imagelayoutstyles.imagebutton14}>
+            <div className={imagelayoutstyles.images}>
+              <DraggableImage className={imagelayoutstyles.fourteenthimage} src={starShapeYellowStrokeColor} width={150} onClick={starshapeyellowstrokecolor} />
+              <div className={imagelayoutstyles.topoption14}>
+                <button className={imagelayoutstyles.addtodesign14} onClick={starshapeyellowstrokecolor}>
+                  <PlusIcon />
+                </button>
+              </div>
+              <div className={imagelayoutstyles.details14}>
+                <div className={imagelayoutstyles.customshapes14}>
+                  <ShapesIcon14 className={imagelayoutstyles.shapes14} />
+                  <span className={imagelayoutstyles.fourteenthtitle}>Star Shape - Yellow Stroke</span>
                 </div>
               </div>
             </div>
