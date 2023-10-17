@@ -202,8 +202,8 @@ export const App = () => {
       type: "IMAGE",
       id: "starshapeyellowstrokecolor",
       mimeType: "image/png",
-      url: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-yellow-color.png",
-      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/shapes-generator-canva/shapes-generator-canva/assets/images/star-shape-yellow-color.png",
+      url: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-yellow-stroke-color.png",
+      thumbnailUrl: "https://raw.githubusercontent.com/amiralariska/star-shapes-maker-canva/star-shapes-maker-canva/assets/images/star-shape-yellow-stroke-color.png",
     })
     await addNativeElement({
       type: "IMAGE",
