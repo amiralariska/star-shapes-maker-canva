@@ -164,7 +164,7 @@
   background-clip: text;
   color: transparent;
   background-image: linear-gradient(to right, #FF56C4 20%, #FF36C4 40%, #FF16C4 60%, #FF56A4 80%);
-  animation: gradienttext 2s linear infinite;
+  animation: gradienttext 1.25s linear infinite;
   background-size: 200% auto;
 }
 @keyframes gradienttext {
